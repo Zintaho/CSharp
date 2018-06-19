@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITester.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestConstants.cs" />
+    <Compile Include="TestNullable.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
