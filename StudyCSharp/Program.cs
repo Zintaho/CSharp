@@ -8,10 +8,8 @@ namespace StudyCSharp
     {
         static void Main(string[] args)
         {
-            ITester tester = new TestConstants();
-            ITester tester2 = new TestConstants(75);
+            ITester tester = new TestNullable();
             tester.Test();
-            tester2.Test();
 
             return;
         }
